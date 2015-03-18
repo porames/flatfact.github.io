@@ -25,8 +25,6 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
 */
-
-
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -43,8 +41,6 @@
 - Clearing
 - Media Queries
 */
-
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -59,14 +55,12 @@
   width: 100%;
   float: left;
   box-sizing: border-box; }
-
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
 }
-
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
@@ -77,7 +71,6 @@
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
-
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
@@ -91,12 +84,9 @@
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
-
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
-
   .one-half.column                { width: 48%; }
-
   /* Offsets */
   .offset-by-one.column,
   .offset-by-one.columns          { margin-left: 8.66666666667%; }
@@ -120,27 +110,19 @@
   .offset-by-ten.columns          { margin-left: 86.6666666667%; }
   .offset-by-eleven.column,
   .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
-
   .offset-by-one-third.column,
   .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
   .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
-
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
-
 }
-
-
-
 a {
   color: #1EAEDB;
   transition: all 0.5s
 }
 a:hover {
   color: #0FA0CE; }
-
-
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
@@ -204,8 +186,6 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   transition: background 0.3s ease;
 }
-
-
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
@@ -266,8 +246,6 @@ label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
-
-
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
@@ -285,8 +263,6 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem; }
-
-
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -301,8 +277,6 @@ pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre; }
-
-
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
@@ -316,8 +290,6 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
-
-
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
@@ -338,8 +310,6 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
-
-
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
@@ -352,8 +322,6 @@ form {
   float: right; }
 .u-pull-left {
   float: left; }
-
-
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
@@ -361,11 +329,8 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
-
-
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 /* Self Clearing Goodness */
 .container:after,
 .row:after,
@@ -373,8 +338,6 @@ hr {
   content: "";
   display: table;
   clear: both; }
-
-
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -383,23 +346,16 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
-
 /* Larger than mobile */
 @media (min-width: 400px) {}
-
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
-
 /* Larger than tablet */
 @media (min-width: 750px) {}
-
 /* Larger than desktop */
 @media (min-width: 1000px) {}
-
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
 <!----------------End--------------------------->
 /*
 ==============================================
@@ -466,25 +422,21 @@ body {
     animation-iteration-count:infinite; 
     -webkit-animation-iteration-count:infinite; 
 } 
-
 @-webkit-keyframes bounce { 
     0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
     40% {-webkit-transform: translateY(-30px);} 
     60% {-webkit-transform: translateY(-15px);} 
 } 
-
 @keyframes bounce { 
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
     40% {transform: translateY(-30px);} 
     60% {transform: translateY(-15px);} 
 } 
-
 .bounce { 
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
 }
 <!-------------------End--------------------->
-
 img {
     vertical-align: middle;
 }
@@ -495,17 +447,15 @@ img {
   margin-left: -20px;
   width: 40px;
   height: 40px;
-  background-image: url(//farm9.staticflickr.com/8579/16666288139_b5e10f4728_o.png");
+  background-image: url(//farm8.staticflickr.com/7644/16179248524_dd349afa13_o.png);
   background-size: contain;
   background-repeat:no-repeat;
 }
-
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
-
 /*
 ==============================================
 end
@@ -541,7 +491,6 @@ black {
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
 }
-
 body {
     text-decoration-color: white;
     font-family: 'supermarketregular';
@@ -575,13 +524,11 @@ p {
 	.intro p{
 		color: #fff;
 	}
-
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
 		text-align:center;
 	}
-
 	/* Bottom menu
 	* --------------------------------------- */
 	#infoMenu li a {
@@ -595,7 +542,6 @@ num {
    h1 {
       font-size: 3em;
    }
-
    h2 {
       font-size: 2.5em;
    }
@@ -617,22 +563,16 @@ num {
   background-image: url(lazy.png);
   background-size: contain;
   background-repeat:no-repeat;
-  opacity: 0;
 }
 }
-    #section0{
-        background-image: url(//farm8.staticflickr.com/7597/16230100294_fd2b6cc814_o.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-    }
         
-    #section1{
-        background-image: url(//farm8.staticflickr.com/7628/16852428035_8e301349f1_o.jpg);
+    #section0{
+        background-image: url(//farm8.staticflickr.com/7591/16635565029_05a7b146dd_o.jpg);
         background-position: center;
         background-repeat: no-repeat;
 	}
-	#section2{
-		background-image: url(//farm8.staticflickr.com/7601/16645124187_80ae74c4a2_o.jpg);
+	#section1{
+		background-image: url(//farm8.staticflickr.com/7627/16800274852_1bd2c41883_o.jpg);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -649,7 +589,6 @@ num {
         background-color: #FAFAFA;
         background-position: center;
     }
-
 	</style>
 
 	<!--[if IE]>
@@ -679,13 +618,12 @@ num {
    <!----------------------Facebook Plugin Script------------------------> 
     <!----------------------End Script------------------------------------>
 <div id="fullpage">
-   
-    <div class="section" id="section1">
+    <div class="section" id="section0">
 		<div class="intro">
 			<a href="//hoof.flatfact.com/mlp-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “My Little Pony”</h1><br><h3><i class="fa fa-calendar"></i> 17/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
 		</div>
 	</div>
-	<div class="section" id="section2">
+	<div class="section" id="section1">
 		<div class="intro">
 			<a href="//hoof.flatfact.com/mosquito-facts"><h1><num>8</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “ยุง”</h1><br><h3><i class="fa fa-calendar"></i> 14/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
 		</div>
