@@ -469,9 +469,26 @@ black {
   color: #000;
   text-align: center;
   outline: none;
-  text-decoration: none;
-    
+  text-decoration: none;  
 }
+<!------------------Fixed Head-------------------->
+        #header, #footer{
+		position:fixed;
+		height: auto;
+		display:block;
+		width: 100%;
+		z-index:9;
+		text-align:center;
+        opacity: 0.5;
+        background: #000;
+	}
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
+<!------------------Rarijack >_< -------------------->
 .ghost-button {
   display: inline-block;
   width: 200px;
@@ -495,6 +512,7 @@ body {
     text-decoration-color: white;
     font-family: 'supermarketregular';
 }
+
 h1 {
   font-size: 5.9vw;
   margin-left: 10px;
@@ -620,8 +638,9 @@ num {
 
 </head>
 <body>
-   <!----------------------Facebook Plugin Script------------------------> 
-    <!----------------------End Script------------------------------------>
+<div id="header"><a href="//hoof.flatfact.com"><img src="//farm9.staticflickr.com/8680/16675537019_178afd3cb2_o.png" width="40" height="40"></a></div>
+<!----------------------Facebook Plugin Script------------------------> 
+<!----------------------End Script------------------------------------>
 <div id="fullpage">
 <div class="section" id="section0">
 <div class="intro">
