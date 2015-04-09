@@ -437,9 +437,6 @@ body {
     animation-name: bounce; 
 }
 <!-------------------End--------------------->
-img {
-    vertical-align: middle;
-}
 .arrow {
   position: fixed;
   bottom: 0;
@@ -461,6 +458,44 @@ img {
 end
 ==============================================
 */
+#header, #footer{
+		position:fixed;
+		height: auto;
+		display:block;
+		width: 100%;
+		z-index:9;
+		text-align:center;
+        opacity: 0.5;
+        background: #000;
+font-size: 24px;
+font-color: #fff;
+	}
+
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
+.left {
+float:left;
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.right{
+float: right;
+margin-left: 24px;
+margin-right: 24px;
+}
+.image img {
+  position: relative;
+  top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 black {
   display: inline-block;
   font-size: 1.5vw;
@@ -650,6 +685,13 @@ background-color: #1d2b4e;
 
 </head>
 <body>
+<div id="header">
+<section class="image">
+<div class="left"><img src="//i.imgur.com/i3Nfbok.png" width="40px" height="40px"></div>
+<div class="right"><img src="//i.imgur.com/9CMAQZr.png" width="40px" height="40px"></div>
+</div>
+</section>
+</body>
 <!----------------------Facebook Plugin Script------------------------> 
 <!----------------------End Script------------------------------------>
 <div id="fullpage">
