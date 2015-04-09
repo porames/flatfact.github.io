@@ -13,7 +13,7 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="//staticflatfact.bitballoon.com/style.css" />
 	<link href='//fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="//staticflatfact.bitballoon.com่/fonts/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="//hoof.flatfact.com/mosquito-facts/fonts/stylesheet.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <style>
     <!---------------Skeleton Responsive------------>
@@ -461,6 +461,35 @@ img {
 end
 ==============================================
 */
+#header, #footer{
+		position:fixed;
+		height: auto;
+		display:block;
+		width: 100%;
+		z-index:9;
+		text-align:center;
+        opacity: 0.5;
+        background: #000;
+	}
+
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
+.left {
+float:left;
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.right{
+float: right;
+margin-left: 24px;
+margin-right: 24px;
+}
+
 black {
   display: inline-block;
   font-size: 1.5vw;
@@ -566,33 +595,53 @@ num {
   background-repeat:no-repeat;
 }
 }
-    #section0{
+#section0{
+        background-color: #fe001a'
+	}
+#section1{
+        background-color: #03A9F4;
+	}
+#section2{
+        background-image:url(//farm8.staticflickr.com/7627/16788168829_92a3358e6c_o.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+background-color: #827F18;
+}
+#section3{
+        background-image:url(//farm8.staticflickr.com/7614/16766239370_ee7fc7d593_o.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+background-color: #808080;
+}
+
+    #section4{
     background-image: url(//farm9.staticflickr.com/8742/16309153244_0c78e8ab99_o.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
-    #section1{
+    #section5{
     background-image: url(//farm8.staticflickr.com/7595/16302489873_da8270aba8_o.jpg);
     background-position: center;
 
         }
     
-    #section2{
+    #section6{
         background-image: url(//farm8.staticflickr.com/7652/16673155157_09b1a5f4be_o.png);
+background-color: #1d2b4e;
         background-position: center;
         background-repeat: no-repeat;
 	}
-	#section3{
+	#section7{
 	background-image: url(//farm8.staticflickr.com/7586/16665027588_e820d71b88_o.jpg);
         background-position: center;
         background-repeat: no-repeat;
     }
-	#section4{
+	#section8{
 	background-image: url(//farm8.staticflickr.com/7628/16852428035_8e301349f1_o.jpg);
         background-position: center;
         background-repeat: no-repeat;
     }
-    #section5{
+    #section9{
 	background-image: url(//farm8.staticflickr.com/7601/16645124187_80ae74c4a2_o.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -618,52 +667,73 @@ num {
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage',  '9thPage', 'lastPage'],
-				sectionsColor: ['#000000','#000000','#1d2b4e', '#FAFAFA'],
-				navigation: true,
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage','9thPage','10thPage','lastPage'],
+				sectionsColor: ['#fe001a','#03A9F4','#827F18','#808080' ,'#00000','#00000','#1d2b4e','#000000', '#FAFAFA'],
+				navigation: true, 
 				navigationPosition: 'right',
-				navigationTooltips: ['1', '2', '3', 'About'],
+				navigationTooltips: ['1', '2', '3','4','5','6','7','8','9','10','About'],
 				responsive: 900
 			});
 		});
 	</script>
 
 </head>
-<body>
+<body> <div id="header"><h1>
+<div class="left"><</div><img src="//farm8.staticflickr.com/7600/16849151601_4cc60a30be_o.png">
+<div class="right">></div></div>
+</body></h1>
 <!----------------------Facebook Plugin Script------------------------> 
 <!----------------------End Script------------------------------------>
 <div id="fullpage">
 <div class="section" id="section0">
 <div class="intro">
-			<a href="//hoof.flatfact.com/sony-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Sony"</h1><br><h3><i class="fa fa-calendar"></i> 27/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
-		</div>
-</div>
+			<a href="//hoof.flatfact.com/coke-facts/"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Coca Cola”</h1><br><h3><i class="fa fa-calendar"></i> 8/4/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
+		</div></div>
 <div class="section" id="section1">
 <div class="intro">
-			<a href="//hoof.flatfact.com/gold-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “ทองคำ”</h1><br><h3><i class="fa fa-calendar"></i> 25/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
-		</div>
-</div>
+			<a href="//hoof.flatfact.com/ie-facts/"><h1><num>8</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “IE”</h1><br><h3><i class="fa fa-calendar"></i> 5/4/2015</h3></a>
+		</div></div>
 <div class="section" id="section2">
 <div class="intro">
-			<a href="//hoof.flatfact.com/facebook-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Facebook”</h1><br><h3><i class="fa fa-calendar"></i> 22/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
+			<a href="//hoof.flatfact.com/spongebob-facts/"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “SpongeBob”</h1><br><h3><i class="fa fa-calendar"></i> 1/4/2015</h3></a>
 		</div>
 </div>
 <div class="section" id="section3">
 <div class="intro">
+			<a href="//hoof.flatfact.com/mrbean-facts/"><h1><num>8</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Mr.Bean”</h1><br><h3><i class="fa fa-calendar"></i> 29/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
+		</div>
+</div>
+<div class="section" id="section4">
+<div class="intro">
+			<a href="//hoof.flatfact.com/sony-facts"><h1><num>8</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Sony”</h1><br><h3><i class="fa fa-calendar"></i> 27/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
+		</div>
+</div>
+<div class="section" id="section5">
+<div class="intro">
+			<a href="//hoof.flatfact.com/gold-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “ทองคำ”</h1><br><h3><i class="fa fa-calendar"></i> 25/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
+		</div>
+</div>
+<div class="section" id="section6">
+<div class="intro">
+			<a href="//hoof.flatfact.com/facebook-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Facebook”</h1><br><h3><i class="fa fa-calendar"></i> 22/3/2015</h3></a><br><a href="#secondPage"><div class="arrow bounce"></div></a>
+		</div>
+</div>
+<div class="section" id="section7">
+<div class="intro">
 			<a href="//hoof.flatfact.com/samsung-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “Samsung”</h1><br><h3><i class="fa fa-calendar"></i> 19/3/2015</h3></a>
 		</div>
 </div>
-    <div class="section" id="section4">
+    <div class="section" id="section8">
 		<div class="intro">
 			<a href="//hoof.flatfact.com/mlp-facts"><h1><num>9</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “My Little Pony”</h1><br><h3><i class="fa fa-calendar"></i> 17/3/2015</h3></a>
 		</div>
 	</div>
-	<div class="section" id="section5">
+	<div class="section" id="section9">
 		<div class="intro">
 			<a href="//hoof.flatfact.com/mosquito-facts"><h1><num>8</num><br>เรื่องที่คุณ(อาจ)ยังไม่รู้เกี่ยวกับ “ยุง”</h1><br><h3><i class="fa fa-calendar"></i> 14/3/2015</h3></a>
 		</div>
 	</div>
     <div class="section" id="section10">
-    <div class="intro"><h2></div><div align="center">CC 2015 Subthai_Production, Hoof.fr and Flatfact.com<br>บทความต่างๆในเว็บไซต์ อนุญาตให้นำไปเผยแพร่และแก้ไขได้โดยต้องอ้างอิงที่มาและไม่ใช้เพื่อการค้า ตาม<a href="https://creativecommons.org/licenses/by-nc/4.0/">สัญญาอนุญาตครีเอทีฟคอมมอนส์ 4.0 International</a>.<br>Powered by Jquery Fullpage.js on<a href="https://github.com/alvarotrigo/fullPage.js"> Github</a><br><br><a class="button button-primary" href="//facebook.com/subthaiTV">Facebook Page</a><a class="button button-primary" href="//github.com/flatfact">Fork Me On GitHub</a><br><br><br><br><a href="#firstPage"><div id="animated-example" class="animated bounce"><img src="//farm8.staticflickr.com/7601/16623750648_f4c543a294_o.png" width="40px"></div></a></div></div></div></div></h2>
+    <div class="intro"><h2></div><div align="center">CC Subthai_Production, Hoof.fr and Flatfact.com<br>บทความต่างๆในเว็บไซต์ อนุญาตให้นำไปเผยแพร่และแก้ไขได้โดยต้องอ้างอิงที่มาและไม่ใช้เพื่อการค้า ตาม<a href="https://creativecommons.org/licenses/by-nc/4.0/">สัญญาอนุญาตครีเอทีฟคอมมอนส์ 4.0 International</a>.<br>Powered by Jquery Fullpage.js on<a href="https://github.com/alvarotrigo/fullPage.js"> Github</a><br><br><a class="button button-primary" href="//facebook.com/subthaiTV">Facebook Page</a><a class="button button-primary" href="//github.com/flatfact">Fork Me On GitHub</a><br><br><br><br><a href="#firstPage"><div id="animated-example" class="animated bounce"><img src="//farm8.staticflickr.com/7601/16623750648_f4c543a294_o.png" width="40px"></div></a></div></div></div></div></h2>
 </body>
 </html>
