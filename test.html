@@ -45,99 +45,6 @@
 
 
 /* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
-.column,
-.columns {
-  width: 100%;
-  float: left;
-  box-sizing: border-box; }
-
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}
-
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
-    width: 80%; }
-  .column,
-  .columns {
-    margin-left: 4%; }
-  .column:first-child,
-  .columns:first-child {
-    margin-left: 0; }
-
-  .one.column,
-  .one.columns                    { width: 4.66666666667%; }
-  .two.columns                    { width: 13.3333333333%; }
-  .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 30.6666666667%; }
-  .five.columns                   { width: 39.3333333333%; }
-  .six.columns                    { width: 48%;            }
-  .seven.columns                  { width: 56.6666666667%; }
-  .eight.columns                  { width: 65.3333333333%; }
-  .nine.columns                   { width: 74.0%;          }
-  .ten.columns                    { width: 82.6666666667%; }
-  .eleven.columns                 { width: 91.3333333333%; }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
-
-  .one-third.column               { width: 30.6666666667%; }
-  .two-thirds.column              { width: 65.3333333333%; }
-
-  .one-half.column                { width: 48%; }
-
-  /* Offsets */
-  .offset-by-one.column,
-  .offset-by-one.columns          { margin-left: 8.66666666667%; }
-  .offset-by-two.column,
-  .offset-by-two.columns          { margin-left: 17.3333333333%; }
-  .offset-by-three.column,
-  .offset-by-three.columns        { margin-left: 26%;            }
-  .offset-by-four.column,
-  .offset-by-four.columns         { margin-left: 34.6666666667%; }
-  .offset-by-five.column,
-  .offset-by-five.columns         { margin-left: 43.3333333333%; }
-  .offset-by-six.column,
-  .offset-by-six.columns          { margin-left: 52%;            }
-  .offset-by-seven.column,
-  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
-  .offset-by-eight.column,
-  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
-  .offset-by-nine.column,
-  .offset-by-nine.columns         { margin-left: 78.0%;          }
-  .offset-by-ten.column,
-  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
-  .offset-by-eleven.column,
-  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
-
-  .offset-by-one-third.column,
-  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
-  .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
-
-  .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
-
-}
-
-
-
-a {
-  color: #1EAEDB;
-  transition: all 0.5s
-}
-a:hover {
-  color: #0FA0CE; }
 
 
 /* Buttons
@@ -566,36 +473,24 @@ p {
 	#infoMenu li a {
 		color: #fff;
     }
-@media (max-widt: 900px) {
 
-.comment-box{
-width: 100%;
-height: auto;
-overflow: auto;
-}
-}
     @media (max-width: 767px) {
-
 .content {
 margin-left: 8px;
 margin-right: 8px;
 }
-
 num {
     font-size: 3em;
 }
-   h1 {
+h1 {
       font-size: 3em;
-   }
-
-   h2 {
+}
+h2 {
       font-size: 2.5em;
-   }
-        
-  black {
-  font-size: 1em;
-  width: 80vw;
-  }
+   }     
+.comment-box{
+height: auto;
+}  
 .arrow {
   position: fixed;
   bottom: 0;
@@ -607,14 +502,14 @@ num {
   background-size: contain;
   background-repeat:no-repeat;
 }
-
 }
 
 .comment-box{
-width: 75%;
+width: auto;
 height: 350px;
 overflow: auto;
 border-radius: 5px;
+overflow:hidden;
 }
 
     #section0{
@@ -801,7 +696,7 @@ word-wrap: break-word;
 		<div class="intro"><h1>Comments!</h1>
            <div class="fb-like" data-href="//hoof.flatfact.com/google-facts/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
 <div align="center"><div class="comment-box">
-<div class="fb-comments" data-href="http://hoof.flatfact.com/google-facts/#" data-numposts="3" data-colorscheme="dark" data-width="100%"></div>
+<div class="fb-comments" data-href="http://hoof.flatfact.com/google-facts/#" data-numposts="3" data-colorscheme="dark"></div>
 </div></div>
         </div>
 	</div>
