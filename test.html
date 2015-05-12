@@ -600,11 +600,12 @@ height: auto;
 ::-webkit-scrollbar { 
     display: none; 
 }
-.comment-box{
-width: auto;
-height: 350px;
-overflow: auto;
-border-radius: 5px;
+
+.right{
+float: right;
+margin-top: 2px;
+margin-left: 6.18px;
+margin-right: 6.18px;
 }
 
     #section0{
@@ -706,16 +707,18 @@ word-wrap: break-word;
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage', '9thPage','10thPage','lastPage','About'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage', '8thPage', '9thPage','10thPage','About'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Top', '1', '2', '3', '4', '5', '6', '7', '8','9','Comment', 'About'],
+				navigationTooltips: ['Top', '1', '2', '3', '4', '5', '6', '7', '8','9', 'About'],
 				responsive: 900,
                                
 			});
 		});
 	</script>
-<div id="header"><a href="//hoof.flatfact.com"><img src="//farm8.staticflickr.com/7600/16849151601_4cc60a30be_o.png"></a></div>
+<div id="header"><a href="//hoof.flatfact.com"><img src="//farm8.staticflickr.com/7600/16849151601_4cc60a30be_o.png"></a>
+<right><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhoof.flatfact.com%2Fgoogle-facts%2F" target="_blank"><img src="//farm8.staticflickr.com/7787/17549098041_4448c44f6c_o.png" width="40px"></right>
+</div>
    <!----------------------Facebook Plugin Script------------------------> 
     <script>
       window.fbAsyncInit = function() {
@@ -788,14 +791,6 @@ word-wrap: break-word;
 		</div>
 	</div>
     <div class="section" id="section10">
-		<div class="intro"><h1>Comments!</h1>
-           <div class="fb-like" data-href="//hoof.flatfact.com/google-facts/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
-<div align="center"><div class="comment-box">
-<div class="fb-comments" data-href="http://hoof.flatfact.com/google-facts/#" data-numposts="3" data-colorscheme="dark"></div>
-</div></div>
-        </div>
-	</div>
-    <div class="section" id="section11">
     <div class="intro"><h2></div><div align="center">CC Subthai_Production, Hoof.fr and Flatfact.com<br>บทความต่างๆในเว็บไซต์ อนุญาตให้นำไปเผยแพร่และแก้ไขได้โดยต้องอ้างอิงที่มาและไม่ใช้เพื่อการค้า ตาม<a href="https://creativecommons.org/licenses/by-nc/4.0/">สัญญาอนุญาตครีเอทีฟคอมมอนส์ 4.0 International</a>.<br>Script by Jquery Fullpage.js on<a href="https://github.com/alvarotrigo/fullPage.js"> Github</a><br><br><a class="button button-primary" href="//facebook.com/subthaiTV">Facebook Page</a><a class="button button-primary" href="//github.com/flatfact">Fork Me On GitHub</a><br><br><br><br><a href="#firstPage"><div id="animated-example" class="animated bounce"><img src="//farm8.staticflickr.com/7601/16623750648_f4c543a294_o.png" width="40px"></div></a></div></div></div></div></h2>
 </body>
 </html>
