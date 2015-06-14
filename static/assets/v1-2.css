@@ -623,13 +623,6 @@ num {
   width: 80vw;
   }
 .arrow {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-left: -20px;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  background-repeat:no-repeat;
+opacity: 0;
 }
 }
