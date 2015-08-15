@@ -133,14 +133,6 @@ word-wrap: break-word;
 
 
 
-a {
-  color: #1EAEDB;
-  transition: all 0.5s
-}
-a:hover {
-  color: #0FA0CE; }
-
-
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
